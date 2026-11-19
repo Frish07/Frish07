@@ -1,10 +1,10 @@
-# Привет, я Frish07 👋
+# Hi, I'm Frish07 👋
 
-Создаю приложения, инструменты и моды. Здесь — мои проекты с открытым исходным кодом.
+I build apps, tools, and mods. Explore my open-source projects below.
 
-[Все репозитории →](https://github.com/Frish07?tab=repositories)
+[All repositories →](https://github.com/Frish07?tab=repositories)
 
-## Популярные репозитории
+## Popular repositories
 
 <!-- POPULAR-REPOS:START -->
 <p>
@@ -47,4 +47,4 @@
 </p>
 <!-- POPULAR-REPOS:END -->
 
-<sub>Топ по количеству ⭐ среди моих публичных репозиториев, без форков. Карточки автоматически обновляются каждые 30 минут; GitHub может задерживать запуск и кэшировать изображения.</sub>
+<sub>My top public repositories ranked by ⭐, excluding forks. Cards update automatically every 30 minutes; GitHub may delay scheduled runs and cache images.</sub>

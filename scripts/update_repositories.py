@@ -58,12 +58,12 @@ def card_svg(repo, theme):
     title_lines = textwrap.wrap(name, width=43)[:2]
     if len(name) > 86:
         title_lines[-1] = title_lines[-1][:40] + "…"
-    description = clean(repo.get("description") or "Описание пока не добавлено.")
+    description = clean(repo.get("description") or "No description provided yet.")
     lines = textwrap.wrap(description, width=61)
     if len(lines) > 2:
         lines = lines[:2]
         lines[-1] = lines[-1][:58].rstrip() + "…"
-    language = repo.get("language") or "Без языка"
+    language = repo.get("language") or "No language detected"
     color = COLORS.get(language, "#8b949e")
     title_text = "".join(f'<tspan x="22" dy="{0 if i == 0 else 21}">{html.escape(line)}</tspan>'
                          for i, line in enumerate(title_lines))
@@ -118,7 +118,7 @@ def update(root, repos):
       <img src="{sources['light']}" alt="{alt}" width="49%">
     </picture>
   </a>''')
-    body = "<p>\n" + "\n".join(entries) + "\n</p>" if entries else "Публичные проекты скоро появятся здесь."
+    body = "<p>\n" + "\n".join(entries) + "\n</p>" if entries else "Public projects will appear here soon."
     readme_path.write_text(before + START + "\n" + body + "\n" + END + after,
                            encoding="utf-8", newline="\n")
     for path in cards.glob("*.svg"):
