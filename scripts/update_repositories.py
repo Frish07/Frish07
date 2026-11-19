@@ -12,9 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OWNER = "Frish07"
 START = "<!-- POPULAR-REPOS:START -->"
 END = "<!-- POPULAR-REPOS:END -->"
+# GitHub Linguist palette: https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
 COLORS = {
     "Python": "#3572A5", "Java": "#b07219", "C++": "#f34b7d",
-    "C#": "#178600", "JavaScript": "#f1e05a", "TypeScript": "#3178c6",
+    "C#": "#7355dd", "JavaScript": "#f1e05a", "TypeScript": "#3178c6",
     "HTML": "#e34c26", "CSS": "#663399", "Rust": "#dea584",
     "Go": "#00ADD8", "Kotlin": "#A97BFF", "Shell": "#89e051",
 }

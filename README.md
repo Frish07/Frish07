@@ -40,8 +40,8 @@ I build apps, tools, and mods. Explore my open-source projects below.
   </a>
   <a href="https://github.com/Frish07/WindowCloud">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/6-dark-40f76f12ab49.svg">
-      <img src="assets/repositories/6-light-c725ccfe86f3.svg" alt="WindowCloud — 1 stars" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/6-dark-70eed788de5e.svg">
+      <img src="assets/repositories/6-light-0cc9fc406d2b.svg" alt="WindowCloud — 1 stars" width="49%">
     </picture>
   </a>
 </p>
