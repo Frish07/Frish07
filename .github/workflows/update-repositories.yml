@@ -1,0 +1,47 @@
+name: Update popular repositories
+
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/**
+      - tests/**
+      - .github/workflows/update-repositories.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test generator
+        run: python -m unittest discover -s tests -v
+      - name: Generate cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_repositories.py
+      - name: Commit changed cards
+        run: |
+          git add README.md assets/repositories
+          if git diff --cached --quiet; then
+            echo "Repository cards are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update popular repository cards"
+          git push
