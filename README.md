@@ -26,22 +26,22 @@ I build apps, tools, and mods. Explore my open-source projects below.
       <img src="assets/repositories/3-light-4e6852d9ee98.svg" alt="dictophone — 1 stars" width="49%">
     </picture>
   </a>
+  <a href="https://github.com/Frish07/Discord-Status">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/4-dark-1522b7a8ce45.svg">
+      <img src="assets/repositories/4-light-71ab13630eb8.svg" alt="Discord-Status — 1 stars" width="49%">
+    </picture>
+  </a>
   <a href="https://github.com/Frish07/Minecraft-Fullbright-for-Embeddium">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/4-dark-f480c276aede.svg">
-      <img src="assets/repositories/4-light-a65f879ebb23.svg" alt="Minecraft-Fullbright-for-Embeddium — 1 stars" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/5-dark-f480c276aede.svg">
+      <img src="assets/repositories/5-light-a65f879ebb23.svg" alt="Minecraft-Fullbright-for-Embeddium — 1 stars" width="49%">
     </picture>
   </a>
   <a href="https://github.com/Frish07/VideoEditor">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/5-dark-2a546ffaa54f.svg">
-      <img src="assets/repositories/5-light-5e6a75a5295d.svg" alt="VideoEditor — 1 stars" width="49%">
-    </picture>
-  </a>
-  <a href="https://github.com/Frish07/WindowCloud">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/6-dark-70eed788de5e.svg">
-      <img src="assets/repositories/6-light-0cc9fc406d2b.svg" alt="WindowCloud — 1 stars" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/repositories/6-dark-2a546ffaa54f.svg">
+      <img src="assets/repositories/6-light-5e6a75a5295d.svg" alt="VideoEditor — 1 stars" width="49%">
     </picture>
   </a>
 </p>
